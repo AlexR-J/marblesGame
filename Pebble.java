@@ -1,3 +1,4 @@
+package pebblesGame;
 public class Pebble {
 
     private int weight;

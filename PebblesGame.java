@@ -1,3 +1,4 @@
+package pebblesGame;
 import java.util.ArrayList;
 import java.io.IOException;
 import java.util.Scanner;
@@ -342,6 +343,9 @@ public class PebblesGame extends Thread {
     }
     public int getValue() {
       return name+1;
+    }
+    public void givePebble(Pebble pebble) {
+    	currentHand.add(pebble);
     }
   }
 }
